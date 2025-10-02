@@ -14,7 +14,6 @@ public class JwtService {
     @Value("${jwt.secret}")
     private String secret;
 
-    // Generar token con solo el username/email
     public String generateToken(String username) {
         return Jwts.builder()
                 .setSubject(username)

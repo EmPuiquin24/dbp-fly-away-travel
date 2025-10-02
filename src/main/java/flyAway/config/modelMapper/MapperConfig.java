@@ -1,4 +1,4 @@
-package flyAway.config.MapperConfig;
+package flyAway.config.modelMapper;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.context.annotation.Bean;
