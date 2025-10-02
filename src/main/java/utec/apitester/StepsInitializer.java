@@ -318,7 +318,7 @@ public class StepsInitializer {
     }
 
     private void addGroupAuthToken() {
-        var urlPath = "/auth/login";
+        var urlPath = "/flyAway/auth/login";
         var group = addGroup("AUTH_LOGIN", 0.5, true);
 
         addStep(group.getName(),

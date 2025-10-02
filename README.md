@@ -92,11 +92,12 @@ Nice-To-Have (+0.2)
 
 ```java
 // required mapping
-@RequestMapping("/auth")
+@RequestMapping("/flyAway/auth")
 class AuthController {
     // UNPROTECTED
     @PostMapping("/login")
-    public ResponseEntity<AuthToken> login(@RequestBody LoginDTO login) {}
+    public ResponseEntity<AuthToken> login(@RequestBody LoginDTO login) {
+    }
 }
 ```
 
